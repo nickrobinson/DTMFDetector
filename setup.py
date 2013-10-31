@@ -2,9 +2,6 @@
 
 from distutils.core import setup
 
-from os.path import abspath, dirname, join
-execfile(join(dirname(abspath(__file__)), 'version.py'))
-
 DESCRIPTION = """
 DTMF Detection Library that takes wav files as input and outputs DTMF digit string. Project hosted at: http://fbdtmfdetector.sourceforge.net/ Written by David Luu
 """[1:-1]
@@ -12,14 +9,14 @@ DTMF Detection Library that takes wav files as input and outputs DTMF digit stri
 
 CLASSIFIERS = """
 Development Status :: 4 - Beta
-License :: GPL v3
+License :: Public Domain
 Operating System :: OS Independent
 Programming Language :: Python
 Topic :: Software Development :: Testing
 """[1:-1]
 
 setup(name         = 'dtmf-detector',
-      version      = VERSION,
+      version      = '0.1.0',
       description  = 'DTMF Detection Library',
       long_description = DESCRIPTION,
       author       = 'David Luu',

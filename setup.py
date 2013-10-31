@@ -30,7 +30,7 @@ setup(name         = 'dtmf-detector',
       packages     = ['dtmf-detector'],
       package_data = {'dtmf-detector': ['tests/*.txt']},
       install_requires=[
-          'chuck',
+          'chunk',
 	  'wave',
 	  'struct',
 	  'math'

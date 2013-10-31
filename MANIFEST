@@ -1,3 +1,2 @@
 setup.py
-src/dtmf-detector/DTMFdetector.py
-src/dtmf-detector/DetectDtmfFromFile.py
+src/dtmf-detector/__init__.py
